@@ -86,30 +86,59 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-<html>
-<head>
-</head>
-<body>
 
-<header>
-  <h1>LADY GAGA</h1>
-</header>
-<section class-"Chromatica">
-  <"img/image1.jpg">
-  <"img/chromatica1.png" alt="THE SIXTH ALBUM BY LADY GAGA">
-  <"img/small1.png">
-  <"img/small1.png">
-  <input type="A1. Chromatica I A2. Alice A3. Stupid Love A4.
-                    Rain On Me (with Ariana Grande) A5. Free Woman A6. Fun Tonight A7.
-                    Chromatica II A8. 911 A9. Plastic Doll A10. Sour Candy (with BLACKPINK)
-                    A11. Enigma A12. Replay A13. Chromatica III A14. Sine From Above (with Elton John)
-                    A15. 1000 Doves A16. Babylon">
+   body{
+     overflow-x: hidden;
+   }
+
+   /* Top navigation */
+
+   .homenav{
+     width: 100vw;
+     height: 50px;
+     background-color: #E3ACAF;
+     margin: 0px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: row;
+     margin: 0px;
+   }
+
+   .homenav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0px;
+   }
+
+   .homenav ul li{
+     margin: 0px 75% 0px 75%;
+   }
+
+   .homenav ul li a{
+    color: #ffffff;
+    text-decoration: none;
+   }
+
+   /* Hero Section */
+
+   .toppage_section{
+     width: 100vw;
+     background-image: url('../img/image1.jpg');
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     height: 1200px;
+     margin: 0px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
 
 
-
-
-
-</body>
 
 /* ==========================================================================
    Helper classes
