@@ -10,11 +10,13 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
 html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
+  font-family: 'Roboto', sans-serif;
 }
 
 /*
@@ -87,7 +89,8 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-   body{
+   
+  body{
      overflow-x: hidden;
    }
 
@@ -95,8 +98,18 @@ textarea {
     background-color: #000;
   }
 
+/*LADY GAGA type*/
+    .hero h1{
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 78px;
+      font: 'Roboto', sans-serif;
+      align-items: left;
+      width: 1000px;
+    }
 
-   .homenav{
+/*top bar on all pages*/
+   .mainnav{
      width: 100vw;
      height: 50px;
      background-color: #E3ACAF;
@@ -108,7 +121,7 @@ textarea {
      margin: 0px;
    }
 
-   .homenav ul{
+   .mainnav ul{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -117,16 +130,62 @@ textarea {
     margin: 0px;
    }
 
-   .homenav ul li{
+   .mainnav ul li{
      margin: 0px 75% 0px 75%;
    }
 
-   .homenav ul li a{
+   .mainnav ul li a{
     color: #ffffff;
     text-decoration: none;
     font-size: 30px;
    }
 
+   #aboutbg{
+     background-image: url('../img/bornthisway_hero.jpg');
+   }
+
+   #tourbg{
+    background-image: url('../img/tourimage.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+   #tour_nav{
+     background-color: #fff;
+   }
+
+   #tour_nav a{
+    color: #000
+   }
+
+   #about_nav{
+     background-color: #F44992;  
+   }
+
+   .tour_headline{
+     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color: #F44992;
+    margin: 0px;
+   }
+
+  .tour_headline img{
+     width: 100px;
+     height: auto;
+   }
+
+  .tour_headline h1,
+  .tour_headline p,
+  .tour_headline img{
+    margin: 0px;
+    text-align: center;
+  }
+  
 
    /* Hero Section */
 
@@ -151,7 +210,7 @@ textarea {
      background-size: contain;
      background-position: center;
    }
-   
+
    .famelastimage{
     width: 100vw;
     height: 1400px;
@@ -191,6 +250,38 @@ textarea {
      color: #E04386;
    }
 
+   .famelastimage{
+     color: #ffffff;
+     font-size: 30px;
+   }
+
+   .famelastimage p{
+    position: relative;
+    top: 15%;
+    left: 50%;
+   }
+
+   #fame1{
+     left: 52%;
+   }
+
+   #fame2{
+    left: 56%;
+  }
+
+  #fame3{
+    left: 60%;
+  }
+
+  #fame4{
+    left: 64%;
+  }
+
+  #fame5{
+    left: 68%;
+  }
+
+/*About background images*/
 
 
 /* ==========================================================================
