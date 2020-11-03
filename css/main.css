@@ -144,6 +144,13 @@ textarea {
      background-image: url('../img/bornthisway_hero.jpg');
    }
 
+/* This styles the about page content in the hero sectin */
+   #aboutbg h1{
+     color: #fff;
+     width: 40%;
+     text-align: center;
+   }
+
    #tourbg{
     background-image: url('../img/tourimage.jpg');
     display: flex;
@@ -175,6 +182,8 @@ textarea {
     flex-direction: row;
     color: #F44992;
     margin: 0px;
+    position: relative;
+    top: -25%;
    }
 
   .tour_headline img{
@@ -284,19 +293,34 @@ textarea {
     left: 68%;
   }
 
+  /* Look at the styles here to see how the positioning and organziation of your tour page is accomplished.*/
   .Tour_content {
-      width: 100%;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     flex-direction: column;
-     color: #E04386;
-     margin: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color: #E04386;
+    margin: 0px;
+    position: relative;
+    top: -22%;
+  }
+
+  .Tour_content p{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+  }
+
+  .Tour_bottom{
+    position: relative;
+      top: -20%;
   }
 
    .Tour_bottom img{
-      width: 100px;
+      width: 200px;
       height: auto;
+      
     }
 
   .tourinfo{
