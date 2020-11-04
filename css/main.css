@@ -320,7 +320,7 @@ textarea {
    .Tour_bottom img{
       width: 200px;
       height: auto;
-      
+
     }
 
   .tourinfo{
@@ -338,7 +338,34 @@ textarea {
    .about_text h3{
      margin: 0px;
      text-align: center;
+   }
 
+    .bottom_aboutpage1 {
+       background-image: url('../img/shoot2.jpg');
+       background-position: center;
+       background-size: cover;
+       background-repeat: no-repeat;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       margin: 0px;
+       width: 100vw;
+       height: 1400px;
+     }
+     .bottom_aboutpage2 {
+        background-image: url('../img/shoot1.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0px;
+        width: 100vw;
+        height: 1400px;
+      }
 /*About background images*/
 
 
