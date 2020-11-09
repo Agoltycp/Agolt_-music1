@@ -340,31 +340,55 @@ textarea {
      text-align: center;
    }
 
+   .about_info{
+     display: flex;
+     justify-content: center;
+     width: 100vw;
+     flex-direction: row;
+   }
+
     .bottom_aboutpage1 {
        background-image: url('../img/shoot2.jpg');
        background-position: center;
        background-size: cover;
        background-repeat: no-repeat;
        display: flex;
-       justify-content: center;
-       align-items: center;
        flex-direction: column;
+       align-items: center;
        margin: 0px;
-       width: 100vw;
-       height: 1400px;
+       width: 50%;
+       padding: 2%;
      }
+
      .bottom_aboutpage2 {
         background-image: url('../img/shoot1.jpg');
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
         display: flex;
-        justify-content: center;
-        align-items: center;
         flex-direction: column;
+        align-items: center;
         margin: 0px;
-        width: 100vw;
-        height: 1400px;
+        width: 50%;
+        padding: 2%;
+      }
+
+      .albums,
+      .singles{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+
+      .albums img{
+        width: 300px;
+        margin: 2%;
+      }
+
+      .singles img{
+        width: 180px;
+        margin: 2%;
       }
 /*About background images*/
 
