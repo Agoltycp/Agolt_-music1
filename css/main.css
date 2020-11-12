@@ -183,11 +183,11 @@ textarea {
     color: #F44992;
     margin: 0px;
     position: relative;
-    top: -25%;
+    top: -20%;
    }
 
   .tour_headline img{
-     width: 100px;
+     width: 130px;
      height: auto;
    }
 
@@ -197,7 +197,10 @@ textarea {
     margin: 0px;
     text-align: center;
   }
-
+.tour_headline h1{
+  font-weight: bold;
+  font-size: 40px;
+}
 
    /* Hero Section */
 
@@ -294,6 +297,9 @@ textarea {
   }
 
   /* Look at the styles here to see how the positioning and organziation of your tour page is accomplished.*/
+
+
+
   .Tour_content {
     width: 100%;
     display: flex;
@@ -303,7 +309,7 @@ textarea {
     color: #E04386;
     margin: 0px;
     position: relative;
-    top: -22%;
+    top: -32%;
   }
 
   .Tour_content p{
@@ -318,9 +324,45 @@ textarea {
   }
 
    .Tour_bottom img{
-      width: 200px;
+      width: 700px;
       height: auto;
 
+    }
+    #july1{
+      left: 50%;
+    }
+    #july2{
+      left: 50%;
+    }
+    #aug1{
+      left: 50%;
+    }
+    #aug2{
+      left: 50%;
+    }
+    #aug3{
+      left: 50%;
+    }
+    #aug4{
+      left: 50%;
+    }
+    #paris{
+      right: 50%;
+    }
+    #london{
+      right: 50%;
+    }
+    #boston{
+      right: 50%;
+    }
+    #toronto{
+      right: 50%;
+    }
+    #jersey{
+      right: 50%;
+    }
+    #chicago{
+      right: 50%;
     }
 
   .tourinfo{
@@ -391,6 +433,8 @@ textarea {
         margin: 2%;
       }
 /*About background images*/
+
+/*Text on Tour page*/
 
 
 /* ==========================================================================
