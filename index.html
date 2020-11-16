@@ -16,12 +16,21 @@
 
 <!-- Top of site-->
 <body id="homepage">
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html">HOME</a>
+    <a href="about.html">ABOUT</a>
+    <a href="tour.html">TOUR</a>
+  </div>
+
 <nav class="mainnav">
   <ul>
   <li><a href="about.html">ABOUT</a></li>
   <span class="active"></span><li><a href="index.html">HOME</a></li></span>
   <li><a href="tour.html">TOUR</a></li>
   </ul>
+  <span class="hamburger" onclick="openNav()">&#9776;</span>
 </nav>
 
 <section class="toppage_section">

@@ -16,21 +16,28 @@
 
 
 <body id="aboutpage">
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html">HOME</a>
+    <a href="about.html">ABOUT</a>
+    <a href="tour.html">TOUR</a>
+  </div>
+
   <nav class="mainnav" id="about_nav">
     <ul>
     <li><a href="about.html">ABOUT</a></li>
     <span class="active"></span><li><a href="index.html">HOME</a></li></span>
     <li><a href="tour.html">TOUR</a></li>
     </ul>
+    <span class="hamburger" onclick="openNav()" style="color: #000;">&#9776;</span>
   </nav>
 
   <!-- you had your content in the wrong place...it should go in here -->
   <section class="toppage_section" id="aboutbg">
     <h1>Stefani Joanne Angelina Germanotta, known professionally as Lady Gaga, is an American singer, songwriter, record producer, actress, and businesswoman. She is known for her consistent image reinventions and versatility in both music and entertainment.
-
-    </h1>
-    <ul>
-      <h1>Born March 28, 1986</h1>
+      
+      <br/><br/>Born March 28, 1986</h1>
   </section>
 
 
@@ -88,5 +95,7 @@
 
 </section>
 
-
+<script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
+</html>

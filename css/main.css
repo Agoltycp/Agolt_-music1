@@ -187,14 +187,14 @@ textarea {
    }
 
   .tour_headline img{
-     width: 130px;
+     width: 100px;
      height: auto;
    }
 
   .tour_headline h1,
   .tour_headline p,
   .tour_headline img{
-    margin: 0px;
+    margin: 2%;
     text-align: center;
   }
 .tour_headline h1{
@@ -434,7 +434,53 @@ textarea {
       }
 /*About background images*/
 
-/*Text on Tour page*/
+/* Side Nav */
+
+.hamburger{
+ font-size: 30px;
+ cursor: pointer;
+ color: #fff;
+ display: none;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #E04386;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #fff;
+  display: block;
+  transition: 0.3s;
+}
+
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+
+#main {
+  transition: margin-right .5s;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
 
 
 /* ==========================================================================
