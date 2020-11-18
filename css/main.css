@@ -167,6 +167,15 @@ textarea {
     color: #FFFFFF
    }
 
+   #tourbg2{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: row;
+    position: relative;
+    top: 12%;
+   }
+
    #about_nav{
      background-color: #FFFFFF;
    }
@@ -183,7 +192,7 @@ textarea {
     color: #F44992;
     margin: 0px;
     position: relative;
-    top: -20%;
+    top: 0%;
    }
 
   .tour_headline img{
@@ -201,6 +210,7 @@ textarea {
   font-weight: bold;
   font-size: 40px;
 }
+
 
 
    /* Hero Section */
@@ -325,6 +335,7 @@ textarea {
 
   /* Look at the styles here to see how the positioning and organziation of your tour page is accomplished.*/
 
+  
 
 
   .Tour_content {
@@ -332,7 +343,7 @@ textarea {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
     color: #E04386;
     margin: 0px;
     position: relative;
@@ -343,11 +354,12 @@ textarea {
     font-weight: bold;
     font-size: 20px;
     text-align: left;
+    width: 120px;
   }
 
   .Tour_bottom{
     position: relative;
-      top: -20%;
+      top: 0%;
   }
   .tour_headline p{
     font-weight: bold;
@@ -359,49 +371,14 @@ textarea {
   .tour_headline h4{
     font-size: 30px;
     text-align: center;
+    margin-bottom: 6%;
   }
    .Tour_bottom img{
       width: 700px;
       height: auto;
 
     }
-    #july1{
-      left: 50%;
 
-    }
-    #july2{
-      left: 50%;
-    }
-    #aug1{
-      left: 50%;
-    }
-    #aug2{
-      left: 50%;
-    }
-    #aug3{
-      left: 50%;
-    }
-    #aug4{
-      left: 50%;
-    }
-    #paris{
-      right: 50%;
-    }
-    #london{
-      right: 50%;
-    }
-    #boston{
-      right: 50%;
-    }
-    #toronto{
-      right: 50%;
-    }
-    #jersey{
-      right: 50%;
-    }
-    #chicago{
-      right: 50%;
-    }
 
   .tourinfo{
     background-image: url('../img/tourimage.jpg');
@@ -531,6 +508,26 @@ textarea {
   .sidenav a {font-size: 18px;}
 }
 
+
+/* Media Queries */
+
+/* iPad */
+
+@media screen and (max-width: 768px){
+
+  Write your Tablet Styles in between these curly brackets
+
+
+}
+
+/* Iphone 5 */
+
+@media screen and (max-width: 320px){
+  
+  Write your iPhone Styles in between these curly brackets
+  
+
+}
 
 /* ==========================================================================
    Helper classes
