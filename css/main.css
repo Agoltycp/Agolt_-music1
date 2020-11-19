@@ -221,7 +221,7 @@ textarea {
      background-position: center;
      background-size: cover;
      background-repeat: no-repeat;
-     height: 1200px;
+     height: 1100px;
      margin: 0px;
      display: flex;
      justify-content: center;
@@ -335,7 +335,7 @@ textarea {
 
   /* Look at the styles here to see how the positioning and organziation of your tour page is accomplished.*/
 
-  
+
 
 
   .Tour_content {
@@ -352,9 +352,9 @@ textarea {
 
   .Tour_content p{
     font-weight: bold;
-    font-size: 20px;
+    font-size: 25px;
     text-align: left;
-    width: 120px;
+    width: 150px;
   }
 
   .Tour_bottom{
@@ -363,15 +363,16 @@ textarea {
   }
   .tour_headline p{
     font-weight: bold;
-    font-size: 95px;
+    font-size: 80px;
   }
   .tour_headline h1{
-    font-size: 100px;
+    font-size: 90px;
+    margin-top: 15%;
   }
   .tour_headline h4{
-    font-size: 30px;
+    font-size: 35px;
     text-align: center;
-    margin-bottom: 6%;
+    margin-bottom: 10%;
   }
    .Tour_bottom img{
       width: 700px;
@@ -382,6 +383,7 @@ textarea {
 
   .tourinfo{
     background-image: url('../img/tourimage.jpg');
+
   }
   .about_text h3{
     width: 100%;
@@ -511,21 +513,43 @@ textarea {
 
 /* Media Queries */
 
-/* iPad */
+/* Tablet */
 
 @media screen and (max-width: 768px){
 
-  Write your Tablet Styles in between these curly brackets
+  .mainnav{
+    width: 20vw;
+    height: 50px;
+    background-color: #E3ACAF;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 0px;
 
+  }
+  .toppage_section{
+    width: 100vw;
+    background-image: url('../img/image1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 900px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
 }
 
 /* Iphone 5 */
 
 @media screen and (max-width: 320px){
-  
+
   Write your iPhone Styles in between these curly brackets
-  
+
 
 }
 
