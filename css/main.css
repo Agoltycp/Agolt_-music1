@@ -632,7 +632,136 @@ textarea {
 @media only screen and (max-width: 320px){
 
   Write your iPhone Styles in between these curly brackets
+  .mainnav{
+    width: 20vw;
+    height: 50px;
+    background-color: #E3ACAF;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 0px;
 
+  }
+  .toppage_section{
+    width: 150vw;
+    background-image: url('../img/image1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 900px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Chromatica_middle_section{
+    background-image: url('../img/chromaticalandscape.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px;
+    width: 150vw;
+    height: 1100px;
+  }
+
+  .chromatica_content{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px;
+    font-size: 17px;
+    font-weight: bold;
+    position: center;
+    font: 'Roboto', sans-serif;
+    color: #E04386;
+  }
+  .chromatica_content h5{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px;
+    font-size: 20px;
+    font-weight: bold;
+    position: center;
+    width: 700px;
+    height: 28px;
+    font: 'Roboto', sans-serif;
+    color: #E04386;
+  }
+  .chromatica_content{
+    background-image: url('../img/chromatica1.png');
+    width: 100px;
+    height: 200px;
+  }
+  .chromatica_content h2{
+    font-weight: bold;
+    font-size: 50px;
+    justify-content: center;
+    font: 'Roboto', sans-serif;
+  }
+
+    .Tour_content {
+      width: 10%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      color: #E04386;
+      margin: 0px;
+      position: relative;
+      top: -32%;
+    }
+
+    .Tour_content p{
+      font-weight: bold;
+      font-size: 15px;
+      text-align: left;
+      width: 75px;
+    }
+
+    .Tour_bottom {
+      position: relative;
+      top: -520px;
+      display: flex;
+      width: 100vw;
+      justify-content: center;
+      align-items: center;
+  }
+
+    .tour_headline p{
+      font-weight: bold;
+      font-size: 20px;
+    }
+    .tour_headline h1{
+      font-size: 30px;
+      margin-top: 15%;
+    }
+    .tour_headline h4{
+      font-size: 20px;
+      text-align: center;
+      margin-bottom: 95%;
+    }
+     .Tour_bottom img{
+        width: 300px;
+        height: auto;
+
+      }
+
+
+    .tourinfo{
+      background-image: url('../img/tourimage.jpg');
+
+    }
 
 }
 
